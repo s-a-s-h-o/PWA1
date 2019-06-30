@@ -25,7 +25,7 @@
 </template>
 
 <script>
-console.log(123)
+console.log("this will be merged with master i guess")
 export default {
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
