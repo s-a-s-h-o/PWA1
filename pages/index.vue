@@ -25,7 +25,11 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 console.log("teeeeeeeeest")
+=======
+console.log("this will be merged with master i guess")
+>>>>>>> 5b043d10f137bb7100067c57c8148529fbb86c45
 export default {
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
