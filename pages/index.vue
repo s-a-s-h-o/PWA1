@@ -25,7 +25,7 @@
 </template>
 
 <script>
-console.log(123)
+console.log("teeeeeeeeest")
 export default {
   async asyncData({ app }) {
     const { articles } = await app.$axios.$get(
